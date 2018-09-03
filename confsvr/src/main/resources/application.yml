@@ -1,10 +1,10 @@
-server:
-  port: 8888
 spring:
-  cloud:
-    conifg:
-      server:
-        native:
-          searchLocations: classpath:/config/licensingservice/
   profiles:
     active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/config/licensingservice
+server:
+  port: 8888

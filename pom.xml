@@ -11,6 +11,8 @@
     <modules>
         <module>licensing-service</module>
         <module>confsvr</module>
+        <module>eurekasvr</module>
+        <module>organization-service</module>
     </modules>
 
     <name>spring-cloud-test</name>

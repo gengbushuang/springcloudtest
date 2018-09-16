@@ -5,6 +5,6 @@ spring:
     config:
       server:
         native:
-          search-locations: classpath:/config/licensingservice
+          search-locations: classpath:/config/licensingservice,classpath:/config/organizationservice
 server:
   port: 8888
